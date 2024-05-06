@@ -1,0 +1,231 @@
+body{padding-left: 10em;
+   font-family: Verdana,Arial,sans-serif;
+   font-size: 15px;
+   color: #000000;
+   text-align: justify;
+    background-color: #00AAFF;}
+
+    ul.navbar{ *-- define la posicion del menu de navegacion 
+   
+      list-style-type none
+     padding ::after
+     margin::after ::after
+     position absolute
+     top 2em;
+     left: 0em; 
+     width: 12em
+     
+    }
+    
+    
+       ul.navbar li {
+        margin: 0.20em 0;
+        padding: 0.20em;
+        border-top: 1em solid black;
+        background: #FFFFFF;
+        }
+
+
+h1{text-align:justify-all;  margin-left: 80px;
+   margin-top: 20px;
+   font-size: 180%;
+   color:#d38451; }
+h2, h3 { font-family: Georgia, Times, serif;
+   font-size: 150%;
+   color: #A52A2A;
+   margin-top: 0;
+   margin-left: 30px; }
+
+h4{ text-align:center; }
+p{ line-height: 1.5em;
+   text-indent: 15px;
+   margin: 25px; }
+
+h5{text-align:justify justify-content;  margin-left: 80px;
+   margin-top: 20px;
+   font-size: 180%;
+   color:red }
+
+     img{ border: 2px solid #d38451;
+          margin: 10px;
+          float: right; }
+
+    div.cuerpo{ margin: 0 70px 70px;
+}
+
+    azul { font-weight: bold;
+         color: #6C6CCA; }
+
+         /*validadcion*/
+
+         .error {
+            display: none;
+            color: red;
+            font-size: 14px;
+        }
+        
+        .required {
+            border: 1px solid #ccc;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        
+        .required.error {
+            border: 1px solid red;
+        }
+
+
+
+
+
+
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+.form-register{
+    width:95%;
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    border-radius: 7px;
+}
+.form__titulo{
+    background: rgb(255, 217, 0);
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    font-weight: 100px;
+    font-size: 30px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    
+    border-bottom:5px solid crimson;    
+        
+}
+.contenedor-inputs{
+    padding: 10px 30px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+input{
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid  darkgray;
+}
+.input-48{
+    width: 48%;
+}
+.input-100{
+    width: 100px
+}
+.btn-enviar{
+    background: crimson;
+    color: #fff;
+    margin: auto;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size: 20px;
+ 
+}
+.btn-enviar:active{
+    transform: scale(1.05);
+}
+.form__link{
+    width: 100%;
+    margin: 7px;
+    text-align: center;
+    font-size: 14px;
+    
+    
+        
+}
+*/pie de pagina 
+footer {
+    background-color: #333; /* Color de fondo del pie de página */
+    color: white; /* Color del texto en el pie de página */
+    padding: 10px; /* Espaciado interior para el contenido del pie de página */
+    text-align: center; /* Alineación del texto al centro */
+}
+
+/* Estilos para el enlace de derechos de autor */
+footer a {
+    color: white; /* Color del enlace en el pie de página */
+    text-decoration: none; /* Quitar subrayado del enlace */
+
+
+
+
+}
+
+font-family.Arial, sans-serif
+    margin.form__titulo
+    padding.menu
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #0e0101;
+}
+
+.dropdown:hover .submenu {
+    display: block;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.submenu li {
+    margin-right: 0;
+    display: block;
+}
+
+.submenu a {
+    color: #fff;
+    padding: 10px;
+    display: block;
+}
+
+/* Estilo adicional para hacerlo más atractivo */
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.submenu li:hover {
+    background-color: #444;
+}
+
+
+
+
